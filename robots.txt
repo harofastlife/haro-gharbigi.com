@@ -1,11 +1,87 @@
 # robots.txt for haro-gharbigi.com
-# Healthcare Technology Innovator & AI Strategist
+# Official website of Haro Gharbigi - Healthcare Technology Innovator & AI Strategist
+# https://haro-gharbigi.com
 
+# Allow all crawlers full access
 User-agent: *
 Allow: /
+Disallow:
 
-# Sitemap location
+# Googlebot - full access with enhanced crawling
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Googlebot Image
+User-agent: Googlebot-Image
+Allow: /
+Allow: /og-image.svg
+Allow: /favicon.svg
+
+# Google Adsbot
+User-agent: AdsBot-Google
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo Slurp
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckBot
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu Spider
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Social Media Crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+# AI Training Crawlers - Allow for visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemap locations
 Sitemap: https://haro-gharbigi.com/sitemap.xml
 
-# Crawl-delay suggestion for well-behaved bots
-Crawl-delay: 1
+# Host directive
+Host: https://haro-gharbigi.com
+
+# Additional information
+# Contact: https://www.linkedin.com/in/haro-gharbigi-20b00444/
+# Last updated: 2025-12-15

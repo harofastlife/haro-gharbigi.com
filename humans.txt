@@ -1,0 +1,35 @@
+/* TEAM */
+Name: Haro Gharbigi
+Role: Founder, Healthcare Technology Innovator & AI Strategist
+Location: Los Angeles, California, United States
+Website: https://haro-gharbigi.com
+LinkedIn: https://www.linkedin.com/in/haro-gharbigi-20b00444/
+Twitter: https://x.com/harotweet
+GitHub: https://github.com/haroxy
+Medium: https://medium.com/@harogharbigi
+
+/* SITE */
+Last updated: 2025-12-15
+Standards: HTML5, CSS3, Schema.org, Open Graph, Twitter Cards
+Software: Custom HTML/CSS
+Language: English
+
+/* ABOUT */
+Haro Gharbigi is a visionary entrepreneur driving innovation in healthcare
+technology and artificial intelligence. As founder of AxiaASC, he develops
+cutting-edge software solutions that transform how ambulatory surgery centers
+operate, leveraging AI to improve efficiency and patient outcomes.
+
+With nearly two decades of entrepreneurial experience, Haro has consistently
+focused on identifying opportunities where advanced technology can solve real
+problems for real people in the healthcare sector.
+
+/* VENTURES */
+AxiaASC - https://axiaasc.com
+Smash.com - https://smash.com
+Rejuvie Med Spa - https://rejuviemedspa.com
+
+/* CONNECT */
+Official Website: https://haro-gharbigi.com
+Alternative Sites: https://harogharbigi.com, https://gharbigiharo.com
+Profile Hub: https://haro-gharbigi.com/pages/

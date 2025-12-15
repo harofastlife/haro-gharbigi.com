@@ -1,0 +1,11 @@
+# Security Contact Information for haro-gharbigi.com
+# This file follows the security.txt specification: https://securitytxt.org/
+
+Contact: https://www.linkedin.com/in/haro-gharbigi-20b00444/
+Contact: https://x.com/harotweet
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://haro-gharbigi.com/.well-known/security.txt
+
+# This is a personal portfolio website. For security concerns, please contact
+# Haro Gharbigi directly through the channels listed above.
