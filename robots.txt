@@ -1,0 +1,11 @@
+# robots.txt for haro-gharbigi.com
+# Healthcare Technology Innovator & AI Strategist
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://haro-gharbigi.com/sitemap.xml
+
+# Crawl-delay suggestion for well-behaved bots
+Crawl-delay: 1
