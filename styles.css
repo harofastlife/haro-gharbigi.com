@@ -642,6 +642,23 @@ p {
     color: var(--color-primary);
 }
 
+.favorites-list li a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.favorites-list li a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.favorites-list li a::after {
+    content: ' \2192';
+    font-size: 0.75em;
+    opacity: 0.6;
+}
+
 .favorites-cta {
     text-align: center;
 }
