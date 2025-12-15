@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2744"/>
+      <stop offset="50%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2c5282"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee"/>
+      <stop offset="100%" style="stop-color:#0891b2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Geometric Shapes -->
+  <circle cx="1100" cy="100" r="200" fill="#22d3ee" opacity="0.1"/>
+  <circle cx="100" cy="530" r="150" fill="#0891b2" opacity="0.1"/>
+  <circle cx="900" cy="500" r="80" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.2"/>
+
+  <!-- Accent Line -->
+  <rect x="100" y="280" width="80" height="4" fill="url(#accentGrad)" rx="2"/>
+
+  <!-- Text Content -->
+  <text x="100" y="250" font-family="Georgia, serif" font-size="24" fill="#22d3ee" letter-spacing="4">HEALTHCARE TECHNOLOGY INNOVATOR</text>
+
+  <text x="100" y="360" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="white">Haro Gharbigi</text>
+
+  <text x="100" y="420" font-family="Arial, sans-serif" font-size="28" fill="rgba(255,255,255,0.7)">Founder &amp; CEO of AxiaASC</text>
+
+  <text x="100" y="470" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.5)">AI-Powered Healthcare Solutions | Los Angeles, CA</text>
+
+  <!-- Website URL -->
+  <text x="100" y="570" font-family="Arial, sans-serif" font-size="20" fill="#22d3ee">haro-gharbigi.com</text>
+
+  <!-- Logo Mark -->
+  <g transform="translate(1000, 450)">
+    <rect width="100" height="100" rx="16" fill="url(#accentGrad)" opacity="0.2"/>
+    <text x="50" y="68" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">HG</text>
+  </g>
+</svg>
