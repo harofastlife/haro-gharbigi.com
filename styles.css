@@ -565,6 +565,99 @@ p {
 }
 
 /* ========================================
+   Lifestyle Section
+   ======================================== */
+.lifestyle-section {
+    background: linear-gradient(135deg, #2d1810 0%, #1a0f0a 100%);
+    color: var(--color-white);
+}
+
+.lifestyle-section .section-header {
+    color: var(--color-white);
+}
+
+.lifestyle-section .section-number {
+    color: #d4a574;
+}
+
+.lifestyle-section .section-title {
+    color: var(--color-white);
+}
+
+.lifestyle-content {
+    max-width: 900px;
+}
+
+.lifestyle-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-lg);
+    padding: var(--space-3xl);
+    border: 1px solid rgba(212, 165, 116, 0.2);
+}
+
+.lifestyle-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(212, 165, 116, 0.15);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-xl);
+}
+
+.lifestyle-icon svg {
+    width: 32px;
+    height: 32px;
+    stroke: #d4a574;
+}
+
+.lifestyle-text h3 {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    color: #d4a574;
+    margin-bottom: var(--space-lg);
+}
+
+.lifestyle-text p {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: var(--space-lg);
+}
+
+.lifestyle-text p:last-child {
+    margin-bottom: var(--space-2xl);
+}
+
+.lifestyle-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--space-lg);
+    padding-top: var(--space-xl);
+    border-top: 1px solid rgba(212, 165, 116, 0.2);
+}
+
+.lifestyle-detail {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.detail-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #d4a574;
+}
+
+.detail-value {
+    font-size: 0.9375rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* ========================================
    Favorites Section
    ======================================== */
 .favorites-section {
