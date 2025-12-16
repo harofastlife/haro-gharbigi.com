@@ -1344,6 +1344,59 @@ p {
     margin-left: var(--space-sm);
 }
 
+/* AI Review Sites Grid */
+.ai-reviews-sites {
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-2xl);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ai-reviews-sites h3 {
+    font-size: 1.25rem;
+    color: var(--color-white);
+    margin-bottom: var(--space-sm);
+}
+
+.ai-reviews-sites > p {
+    color: var(--color-gray-400);
+    margin-bottom: var(--space-xl);
+}
+
+.ai-sites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+}
+
+.ai-site-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 0.9375rem;
+    transition: all var(--transition-base);
+}
+
+.ai-site-link:hover {
+    background: rgba(34, 211, 238, 0.15);
+    border-color: var(--color-accent-light);
+    transform: translateX(4px);
+}
+
+.ai-site-link svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    stroke: var(--color-accent-light);
+}
+
 /* ========================================
    Responsive Adjustments
    ======================================== */
