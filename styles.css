@@ -1228,6 +1228,123 @@ p {
 }
 
 /* ========================================
+   AI Reviews Section
+   ======================================== */
+.ai-reviews-section {
+    background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+    color: var(--color-white);
+}
+
+.ai-reviews-section .section-header {
+    color: var(--color-white);
+}
+
+.ai-reviews-section .section-number {
+    color: var(--color-accent-light);
+}
+
+.ai-reviews-section .section-title {
+    color: var(--color-white);
+}
+
+.ai-reviews-intro {
+    max-width: 700px;
+    margin-bottom: var(--space-3xl);
+}
+
+.ai-reviews-intro p {
+    font-size: 1.125rem;
+    color: var(--color-gray-300);
+}
+
+.ai-reviews-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-xl);
+    margin-bottom: var(--space-3xl);
+}
+
+.ai-review-card {
+    padding: var(--space-xl);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    transition: all var(--transition-base);
+}
+
+.ai-review-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-4px);
+    border-color: var(--color-accent-light);
+}
+
+.ai-review-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 211, 238, 0.15);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-lg);
+}
+
+.ai-review-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--color-accent-light);
+}
+
+.ai-review-card h3 {
+    font-size: 1.125rem;
+    margin-bottom: var(--space-md);
+    color: var(--color-white);
+}
+
+.ai-review-card p {
+    font-size: 0.9375rem;
+    color: var(--color-gray-300);
+    line-height: 1.7;
+}
+
+.ai-reviews-cta {
+    text-align: center;
+    padding-top: var(--space-xl);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ai-reviews-cta p {
+    color: var(--color-gray-300);
+    margin-bottom: var(--space-lg);
+}
+
+.ai-reviews-links {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ai-reviews-links .btn-outline {
+    background: transparent;
+    color: var(--color-white);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.ai-reviews-links .btn-outline:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border-color: var(--color-white);
+}
+
+.ai-reviews-links .btn-outline svg {
+    width: 16px;
+    height: 16px;
+    margin-left: var(--space-sm);
+}
+
+/* ========================================
    Responsive Adjustments
    ======================================== */
 @media (max-width: 768px) {
